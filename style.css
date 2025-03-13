@@ -1,0 +1,148 @@
+body {
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+  font-family: sans-serif;
+}
+
+.banner {
+  background-image: url(zebra\ banner\ 2\ 1.png);
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+.banner .fs-4 {
+  color: orangered;
+}
+.banner ul .hamburger .line {
+  width: 25px;
+  height: 5px;
+  margin: 5px;
+  background-color: white;
+}
+.banner .nav-link {
+  color: white;
+}
+.banner .display-1 {
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-size: 150px;
+  margin-top: 70px;
+}
+
+.Activities {
+  min-height: 90vh;
+}
+.Activities .container .card-group {
+  gap: 12px;
+  position: relative;
+}
+.Activities .container .card-group .card-body {
+  position: absolute;
+  top: 20rem;
+  transition: all 0.3s;
+}
+.Activities .container .card-group .card-body .card-text {
+  display: none;
+}
+.Activities .container .card-group .card-body:hover {
+  top: 10rem;
+}
+.Activities .container .card-group .card-body:hover .card-text {
+  display: block;
+}
+
+.container .container {
+  display: flex;
+  gap: 18px;
+}
+.container .container .col-3 {
+  min-height: 500px;
+  position: relative;
+}
+.container .container .col-3 .overlay {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 68, 0, 0.336);
+}
+.container .container .col-3 h3 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-style: italic;
+  color: white;
+  margin-top: 400px;
+}
+.container .container .col-6 {
+  border: 2px solid red;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.container .container .col-6 img {
+  width: 100px;
+  height: 100px;
+}
+.container .container .col-6 span {
+  height: 3px;
+  width: 100px;
+  background-color: red;
+}
+.container .container .col-6 h3 {
+  font-style: italic;
+  margin-top: 50px;
+}
+
+.Gallery {
+  height: 115vh;
+}
+.Gallery .container .row {
+  display: flex;
+}
+
+.Main {
+  min-height: 100vh;
+}
+.Main .container .row .col-6 .content {
+  display: flex;
+}
+.Main .container .row .col-6 .content .text {
+  background-color: orangered;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+.Main .container .row .col-6 .content .text p {
+  text-align: center;
+  padding: 10px;
+}
+.Main .container .row .col-6 .content .picture {
+  width: 50%;
+}
+.Main .container .row .col-6 .content .picture img {
+  width: 100%;
+}
+.Main .container .row .col-3 img {
+  width: 100%;
+  height: 100%;
+}
+
+.Story {
+  min-height: 120vh;
+}
+
+.recent {
+  height: 130vh;
+}
+.recent .container .row .col-3 {
+  position: relative;
+  bottom: 200px;
+}/*# sourceMappingURL=style.css.map */
